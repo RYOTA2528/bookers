@@ -39,6 +39,7 @@ RSpec.describe Book, "モデルに関するテスト(確認)", type: :model do
       find("input[name='commit']").click
       expect(page).to have_content "can't be blank"
     end
+    
   end
 
 
